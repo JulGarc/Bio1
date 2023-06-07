@@ -1,0 +1,76 @@
+/* Nav.css */
+
+.navbar {
+  background-color: #2196f3;
+  color: white;
+}
+
+.navbar-brand {
+  color: white !important;
+}
+
+.navbar-nav .nav-link {
+  color: white !important;
+}
+
+
+  
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .navbar-brand {
+    color: #ffffff; /* Color de letra blanco */
+    font-weight: bold; /* Grosor de letra en negrita */
+    text-decoration: solid;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 980px;  
+  }
+  
+  .nav-item {
+    margin-right: 1rem;
+  }
+  
+  .nav-link {
+    color: #ffffff; /* Color de letra blanco */
+    text-decoration: none;
+    transition: color 0.3s; /* Transición suave de color */
+    
+  }
+  
+  .nav-link:hover {
+    color: #ffffff; /* Color de letra blanco */
+    font-weight: bold; /* Grosor de letra en negrita */
+    text-decoration: solid;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    font-weight: bold; /* Cambia el grosor de la fuente a negrita */
+    color: #fff; /* Cambia el color a blanco */
+    transition: all 0.2s ease; /* Agrega una transición suave */
+  }
+  
+  
+  .nav-link:focus,
+.nav-link:active {
+  color: #ffffff;
+  font-weight: bold;
+
+}
+
+.navbar-toggler-icon {
+    filter: brightness(550%); /* Ajusta el brillo según tus preferencias */
+    transition: filter 0.3s ease;
+  }
+  
+  .navbar-toggler-icon:hover {
+    filter: brightness(400%); /* Ajusta el brillo al estar sobre el icono */
+  }
+  
